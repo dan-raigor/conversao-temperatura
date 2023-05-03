@@ -44,9 +44,8 @@ jobs:
           context: ./src
           file: ./src/Dockerfile
           push: true
-          tags: |
-              danny87/aula-conversao-temperatura:${{github.run_numer}}
-              danny87/aula-conversao-temperatura:latest
+          tags:
+            danny87/aula-conversao-temperatura:latest
 
           
       
