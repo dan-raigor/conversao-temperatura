@@ -44,8 +44,9 @@ jobs:
           context: ./src
           file: ./src/Dockerfile
           push: true
-          tags:
-            docker build -t dan-raigor/aula-conversao-temperatura:v1 -t dan-raigor/aula-conversao-temperatura:latest .
+          tags: |
+              dan-raigor/aula-conversao-temperatura:${{github.run_numer}}
+              dan-raigor/aula-conversao-temperatura:latest
 
           
       
