@@ -44,7 +44,8 @@ jobs:
           context: ./src
           file: ./src/Dockerfile
           push: true
-          tags:
+          tags: |
+            danny87/aula-conversao-temperatura:v1
             danny87/aula-conversao-temperatura:latest
 
           
