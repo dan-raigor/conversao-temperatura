@@ -35,7 +35,7 @@ jobs:
         uses: docker/build-push-action@v4.0.0
         with:
           context: src
-          file: src/Dockerfile
+          file: Dockerfile
           push: true
           tags:
             danny87/aula-conversao-temperatura:v1
