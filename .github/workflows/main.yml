@@ -25,7 +25,9 @@ jobs:
           cd src;
           npm install -g mocha;
           npm install
-          
+      
+      - name: execução do teste
+        run: mocha src/teste/convert.js
           
       
       
