@@ -38,8 +38,7 @@ jobs:
           file: ./src/Dockerfile
           push: true
           tags:
-            dan-raigor/aula-conversao-temperatura:v1
-            dan-raigor/aula-conversao-temperatura:latest
+            danny87/aula-conversao-temperatura:latest
           
       
       
